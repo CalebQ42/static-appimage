@@ -1,8 +1,8 @@
 # Introduction
 
-This is a barebones alternative [AppImage](https://github.com/probonopd/AppImageKit) [type 2](https://github.com/AppImage/AppImageSpec/blob/master/draft.md#type-2-image-format) runtime (image loader) and image maker.  The image is an application and a ZIP archive.
+This is a reworking of <https://github.com/orivej/static-appimage> that uses squashfs instead of zip.
 
-# Usage
+## Usage
 
 ```sh
 go get github.com/orivej/static-appimage/...
